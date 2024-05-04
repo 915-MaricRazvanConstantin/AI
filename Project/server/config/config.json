@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "maric",
+    "password": "database",
+    "database": "MPPDataBase",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": "myCustomLogger"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
